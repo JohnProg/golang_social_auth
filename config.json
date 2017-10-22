@@ -1,0 +1,20 @@
+{
+  "database": {
+    "host": "127.0.0.1",
+    "dbname": "social",
+    "user": "root",
+    "password": "root"
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "username": "skews777@gmail.com",
+    "password": "12345678erlang",
+    "from": "scribnercreek.com <no-reply@scribnercreek.com>"
+  },
+  "i18n": {
+    "en_us": {
+      "verification.email_subject": "Please validate you email address"
+    }
+  }
+}
