@@ -1,3 +1,30 @@
+# golang_social_auth
+The golang application with, with ability to 
+    
+    - signup
+    - login 
+    - updated profile
+    - reset password by email
+    - reset password by token
+    
+## Getting started
+    Download go src from https://golang.org/dl/
+    Download IDE editor from https://www.jetbrains.com/go/?fromMenu
+    Download curl from https://curl.haxx.se/
+    Install mysql db from https://www.mysql.com/
+    Install mysql client from https://www.sequelpro.com/ for OSX 
+    Instal iTerm from https://www.iterm2.com/ for OSX
+
+## How to run app
+    
+    `go run main.go`
+    
+## How to run integration-tests
+
+    `make integration-tests` 
+
+## Testing application
+
     `curl -i -H "Content-Type: application/json" -X POST -d '{"type":"email","value":"siemenspromaster@gmail.com","password":"xyz"}' http://localhost:8080/signup`
 
     `curl -i -H "Content-Type: application/json" -X POST -d '{"type":"linkedin","value":"i_esVlB5FI"}' http://localhost:8080/signup`
